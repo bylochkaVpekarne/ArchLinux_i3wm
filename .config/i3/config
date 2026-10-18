@@ -191,7 +191,7 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id ~/.config/polybar/launcher.sh
 exec_always --no-startup-id bash -c 'sleep 1 && [ -f ~/.cache/current_wallpaper ] && feh --bg-fill $(cat ~/.cache/current_wallpaper)'
-exec_always --no-startup-id picom -CGb
+exec_always --no-startup-id picom 
 
 # --------> BINDS <--------
 
